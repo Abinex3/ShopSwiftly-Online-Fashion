@@ -1,0 +1,138 @@
+#productDetails-container {
+    padding: 50px 100px 50px 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-image-1 {
+    width: 400px;
+    background-color: #898888;
+}
+
+.product--details {
+    padding: 100px 30px 20px 100px;
+}
+
+.product-flex {
+    display: flex;
+}
+
+.product-name-- {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.product--sub {
+    font-size: 15px;
+    color: #888888;
+    margin: 0;
+    
+}
+
+.product--desc {
+    padding-right: 30px;
+    font-size: 16px;
+    color: #2f2f2f;
+}
+
+.product--price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.product--price span {
+    color: #888888;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.product--size {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.size-box {
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    border: 1px solid #888888;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add--card{
+     background-color: #fe4c50;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.quan--container{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SIZE INPUT */
+
+input[type="radio"]{
+    display: none;
+}
+
+.sizelabel{
+    position: relative;
+    border: 1px solid rgb(155, 154, 154);
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(83, 83, 83);
+}
+
+input[type="radio"]:checked + .sizelabel{
+    border: 2px solid black;
+}
+
+/* ----------------- */
+
+
+@media (max-width: 768px) {
+    #productDetails-container {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .product-flex {
+        display: inline-block;
+    }
+
+    .product--details {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .product-image-1 {
+        width: 300px;
+        margin-top: 70px;
+        margin-left: 23px;
+    }
+
+    .product-name-- {
+        font-size: 20px;
+    }
+    
+    .product--sub {
+        font-size: 13px;
+    }
+    
+    .product--desc {
+        padding-right: 0;
+        font-size: 14px;
+    }
+    
+    .product--price {
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+    }
+    
+    
+}

@@ -1,0 +1,82 @@
+#product-cart-container {
+    display: inline-block;
+    margin: 20px 30px 20px 50px;
+}
+
+.product--cart {
+    margin: 20px 50px 0px 50px; 
+    display: inline-block;
+}
+
+.product-thumb {
+    width: 300px;
+}
+
+.product-name {
+    margin: 5px 50px 10px 50px;
+    font-family: "Montserrat", sans-serif;
+    width: 300px;
+    color: black;
+}
+
+.product-price {
+    margin: 5px 50px 10px 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #fe4c50;
+    font-size: 20px;
+}
+
+.amt-div {
+    display: flex;
+}
+
+.discount-amt {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #888888;
+    text-decoration: line-through;
+    position: relative;
+    left: -42px;
+    top: 7px;
+    font-size: 13px;
+}
+
+
+@media (max-width: 768px){
+    #product-cart-container {
+        display: inline-block;
+        width: 48%;
+        margin: 5px 2px 5px 0px;
+    }
+    
+    .product--cart {
+        margin: 20px 50px 0px 10px; 
+    }
+    
+    .product-thumb {
+        width: 170px;
+    }
+
+    .product-name {
+        margin: 5px 50px 10px 10px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        width: 150px;
+        color: black;
+    }
+
+    .product-price {
+        margin: 5px 5px 10px 10px;
+        font-size: 16px;
+    }
+
+    .discount-amt {
+        position: relative;
+        left: 3px;
+        top: 5px;
+        font-size: 12px;
+    }
+    
+    
+}

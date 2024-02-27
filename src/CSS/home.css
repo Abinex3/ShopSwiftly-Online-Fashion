@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+
+
+  
+#home-container{
+    background-image: url(../assets/main-pics.webp);
+    background-size: cover;
+    background-position-y: 80px;
+    background-position-x: -150px;
+    padding: 150px 20px 120px 100px;
+    margin: 0;
+}
+
+.home-content {
+    margin-top: 90px;
+}
+
+.shopNow {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.shopNow:hover {
+    color: #fe4c50;
+}
+
+.collections {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+.new-off {
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    font-size: 80px;
+    margin: 0;
+}
+
+.shopNow-button {
+    padding: 15px 30px 15px 30px;
+    background: #fe4c50;
+    border: none;
+    color: wheat;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.clothes-genders {
+    padding: 50px 25px 30px 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.women {
+    width: 25%;
+    height: 35vh;
+    background: url(../assets/women-thumb.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.accs {
+    width: 25%;
+    height: 35vh;
+    background: url(../assets/accs-thumb.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.men {
+    width: 25%;
+    height: 35vh;
+    background: url(../assets/man-thumb.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    background: white;
+    display: inline-block;
+    padding: 15px;
+    color: black;
+}
+
+.heading:hover {
+    color: #fe4c50;
+}
+
+.new-arrival-container {
+    padding-top: 50px;
+}
+
+.new-heading {
+    text-align: center;
+}
+
+.arrival {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+.new-heading div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 5px;
+    background-color: #fe4c50;
+    border-radius: 15px;
+}
+
+.shipping-container {
+    background-color: #E4E2E2;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-bottom: 50px;
+    
+}
+
+.shipping-content {
+    display: flex;
+    
+}
+
+.shipping-content .fa-solid {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #fe4c50;
+}
+
+.shipping--title{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.shipping--sub{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #888888;
+}
+
+.blog-flex {
+    display: flex;
+    margin-top: 40px;
+}
+
+.blog-container {
+    padding: 20px 30px 20px 80px;
+}
+
+.blog--title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.blog--sub {
+    font-family: 'Poppins', sans-serif;
+}
+
+.read--more {
+    color: #888888;
+}
+
+.read--more .fa-solid {
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+    #home-container{
+        background-position-y: 60px;
+        background-position-x: 60%;
+        background-repeat: no-repeat;
+        padding: 50px 10px 20px 20px; 
+        height: 80vh;
+    }
+
+    .home-content {
+        margin-top: 50px;
+        position: relative;
+        top: 39%;
+    }
+
+    .collections {
+        font-size: 10px;
+    }
+
+    .new-off {
+        width: 70%;
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .clothes-genders {
+        padding: 40px 25px 40px 25px;
+        display: block;
+    }
+
+    .women, .accs, .men {
+        width: 100%;
+    }
+
+    .heading {
+        background: white;
+        display: flex;
+        color: black;
+        position: relative;
+        top: 0px;
+    }
+
+    .shipping-container {
+        background-color: white;
+        display: inline-block;
+        margin-bottom: 5px;
+        padding: 10px 5px 10px 15px;
+        
+    }
+    
+    .shipping-content {
+        background-color: #E4E2E2;
+        display: flex;
+        margin-top: 15px;
+        padding: 10px 25px 10px 15px;
+        width: 85%;   
+    }
+
+    .blog-flex {
+        display: inline-block;
+        margin-top: 40px;
+    }
+    
+    .blog-container {
+        padding: 20px 10px 20px 13px;
+        margin-left: 20px;
+    }
+
+    .blog-thumb {
+        width: 300px;
+    }
+
+    .blog--title {
+       font-size: 20px;
+       width: 80%;
+    }
+    
+    .blog--sub {
+       font-size: 15px;
+       width: 80%;
+    }
+
+    #container {
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,28 @@
+.header-thumb-3 {
+    background-image: url(../assets/ma-thumb.jpg);
+    height: 40vh;
+    background-size:cover;
+    background-position-y: -500px;
+
+}
+
+.header-women {
+    margin-top: 0;
+    font-size: 70px;
+    color: white;
+    padding: 70px 0 0 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+    .header-women {
+        padding: 100px 0 0 10px;
+    }
+
+    .header-accs {
+        padding: 80px 0 0 0;
+    }
+    
+}

@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap");
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  -webkit-box-shadow: 1px 6px 22px -5px rgba(69, 69, 69, 0.75);
+  -moz-box-shadow: 1px 6px 22px -5px rgba(69, 69, 69, 0.75);
+  box-shadow: 1px 6px 22px -5px rgba(69, 69, 69, 0.75);
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.e-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 15px 0 15px 0;
+  color: black;
+}
+
+.company-name,
+.list-logo {
+  display: flex;
+}
+
+.search-bar {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.search-bar input {
+  padding: 10px 20px 10px 10px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  outline: 0;
+}
+
+.search-bar input:hover {
+  border-bottom: 1px solid black;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: "Khand", sans-serif;
+}
+
+.clothes-option {
+  display: inline-block;
+}
+
+li .fa-solid {
+  margin-left: 10px;
+}
+
+.nav-icons {
+  padding: 15px 0px 15px 0px;
+}
+
+.nav-icons .fa-solid,
+.fa-regular {
+  margin-right: 20px;
+  margin-top: 17px;
+  font-size: 15px;
+  color: #888888;
+}
+
+.nav-icons .fa-solid:hover {
+  color: #fe4c50;
+}
+
+.nav-icons .fa-regular:hover {
+  color: #fe4c50;
+}
+
+.span-nav {
+  color: #fe4c50;
+}
+
+ul li a {
+  font-family: arial;
+  font-size: 16px;
+  color: #2e2e2e;
+  text-decoration: none;
+  position: relative;
+  padding: 15px 10px;
+  display: block;
+}
+ul li a + a {
+  margin-left: 16px;
+}
+ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  background-color: #fe4c50;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease;
+  transform: scaleX(0);
+}
+ul a:hover::after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.product-count {
+  margin: 0;
+  padding: 2px 2px 2px 6px;
+  background-color: #fe4c50;
+  border-radius: 50px;
+  width: 10px;
+  font-size: 10px;
+  position: relative;
+  top: -30px;
+  left: 46px;
+}
+
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .e-name {
+    font-size: 18px;
+    margin: 20px 0px 15px 10px;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .product-count {
+    padding: 2px 2px 2px 3px;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    position: absolute;
+    top: 20px;
+    left: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-icons {
+    display: flex;
+  }
+
+  .nav-icons .fa-solid,
+  .fa-regular {
+    margin: 20px 10px 15px 10px;
+    font-size: 20px;
+    color: #888888;
+  }
+
+  .list-logo {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 120%;
+    margin: 0;
+    padding: 20px 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+
+  .menu.active {
+    position: absolute;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+
+  .burger-menu {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .burger-menu i {
+    font-size: 20px;
+    color: #888888;
+  }
+}
