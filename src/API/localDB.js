@@ -14,7 +14,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "MEN SLIM FLANNEL BUTTON-DOWN CASUAL SHIRT",
         __v: 0,
-        id: 1
+        id: "1"
     },
      
     {
@@ -30,7 +30,7 @@ const DATA = {
         size:  "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "MEN SLIM CHECKS BUTTON-DOWN CASUAL SHIRT",
         __v: 0,
-        id: 2
+        id: "2"
     },
     
      
@@ -46,7 +46,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Black paisley print single-breasted party blazer",
         __v: 0,
-        id: 3
+        id: "3"
     },
     
      
@@ -63,7 +63,7 @@ const DATA = {
         size:  "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Red floral print crop top",
         __v: 0,
-        id: 4
+        id: "4"
     },
     
     
@@ -79,7 +79,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "MEN GREY & BLUE CHECKS SLIM FIT SHIRT",
         __v: 0,
-       id: 5
+       id: "5"
     },
     
     
@@ -95,7 +95,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "White geometric print button down casual top",
         __v: 0,
-        id: 6
+        id: "6"
     },
     
      
@@ -111,7 +111,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "White button down casual shirt",
         __v: 0,
-        id: 7
+        id: "7"
     },
     
     
@@ -128,7 +128,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Blue embroidered partywear blazer",
         __v: 0,
-        id: 8
+        id: "8"
     },
     
     
@@ -144,7 +144,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Black animal print cowl neck drop shoulder top",
         __v: 0,
-        id: 9
+        id: "9"
     },
     
     
@@ -160,7 +160,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Light beige/Black, Patterned",
         __v: 0,
-        id: 10
+        id: "10"
     },
     
     
@@ -177,7 +177,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "sleeveless dress in heavy jersey.",
         __v: 0,
-        id: 11
+        id: "11"
     },
     
     {
@@ -192,7 +192,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Long sleeves with buttoned cuffs and a sleeve placket with a link button.",
         __v: 0,
-        id: 12
+        id: "12"
     },
     
     
@@ -208,7 +208,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Oversized fit for a baggy, extra-loose silhouette.",
         __v: 0,
-        id: 13
+        id: "13"
     },
 
     {
@@ -223,7 +223,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "concealed press-studs at the crotch.",
         __v: 0,
-        id: 14
+        id: "14"
     },
 
     {
@@ -238,7 +238,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "long sleeves and a flared skirt.",
         __v: 0,
-        id: 15
+        id: "15"
     },
 
     {
@@ -253,7 +253,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "long sleeves and a straight-cut hem.",
         __v: 0,
-        id: 16
+        id: "16"
     },
 
     {
@@ -268,7 +268,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Regular fit for comfortable wear and a classic silhouette.",
         __v: 0,
-        id: 17
+        id: "17"
     },
 
     {
@@ -284,7 +284,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "oke at the front and back with a wide frill trim that continues over the shoulders.",
         __v: 0,
-        id: 18
+        id: "18"
     },
 
     {
@@ -299,7 +299,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Loose-fit jumper and long raglan sleeves",
         __v: 0,
-        id: 19
+        id: "19"
     },
 
     {
@@ -314,7 +314,7 @@ const DATA = {
         size: "['XS', 'S', 'M', 'L', 'XL', 'XXL']",
         subName: "Black animadl print cowl neck drop shoulder top",
         __v: 0,
-        id: 20
+        id: "20"
     },
 
     {
@@ -327,7 +327,7 @@ const DATA = {
         category : "new arrival",
        quantity: 6,
         subName: "Small shoulder bag in woven fabric with a double-ended zip",
-        id: 21
+        id: "21"
     },
 
     {
@@ -341,7 +341,7 @@ const DATA = {
        quantity: 13,
         subName: "Sunglasses with metal frames",
         __v: 0,
-        id: 22
+        id: "22"
     },
 
     {
@@ -355,7 +355,7 @@ const DATA = {
        quantity: 10,
         subName: "Twill cap with an appliqué on the front, an imitation suede",
         __v: 0,
-        id: 23
+        id: "23"
     },
 
     {
@@ -369,7 +369,7 @@ const DATA = {
        quantity: 10,
         subName: "metal necklaces in different designs",
         __v: 0,
-        id: 24
+        id: "24"
     },
 
     {
@@ -382,7 +382,7 @@ const DATA = {
         category : "new arrival",
        quantity: 6,
         subName: "Tab with a press-stud at each top corner",
-        id: 25
+        id: "25"
     },
 
     {
@@ -396,7 +396,7 @@ const DATA = {
        quantity: 16,
         subName: "Loose-fit jumper and long raglan sleeves",
         __v: 0,
-        id: 26
+        id: "26"
     },
 
     {
@@ -410,7 +410,7 @@ const DATA = {
        quantity: 6,
         subName: "One is a metal chain bracelet and two are elastic with beads.",
         __v: 0,
-        id: 27
+        id: "27"
     },
 
     {
@@ -424,7 +424,7 @@ const DATA = {
        quantity: 10,
         subName: "blue light from digital screens.",
         __v: 0,
-        id: 28
+        id: "28"
     },
 
     {
@@ -438,7 +438,7 @@ const DATA = {
        category : "best seller",
         subName: "Double-layered hats in a soft, rib knit.",
         __v: 0,
-        id: 29
+        id: "29"
     },
 ]
 }

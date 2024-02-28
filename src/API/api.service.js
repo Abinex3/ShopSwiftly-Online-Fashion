@@ -30,7 +30,7 @@ const LOCALAPI = {
     return new Promise((resolve, reject) => {
       try {
         
-        const res = { data: DATA[path].find((e) => e.id == id) };
+        const res = { data: DATA[path].find((e) => e.id === id)};
         resolve(res);
       } catch (e) {
       }
